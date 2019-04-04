@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B84DD238223D231E00C3951A /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84DD237223D231E00C3951A /* ChatViewController.swift */; };
+		B84DD23A223D232B00C3951A /* ChatNib.xib in Resources */ = {isa = PBXBuildFile; fileRef = B84DD239223D232B00C3951A /* ChatNib.xib */; };
+		B84DD23C223D249000C3951A /* ChatCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84DD23B223D249000C3951A /* ChatCollectionViewCell.swift */; };
+		B84DD23E223D261B00C3951A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84DD23D223D261B00C3951A /* Models.swift */; };
+		B84DD2442241158D00C3951A /* FriendsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B84DD2432241158D00C3951A /* FriendsCollectionViewCell.xib */; };
+		B84DD2472241163400C3951A /* FriendsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84DD2462241163400C3951A /* FriendsCollectionViewCell.swift */; };
+		B84DD249224205EC00C3951A /* DiscoverNib.xib in Resources */ = {isa = PBXBuildFile; fileRef = B84DD248224205EB00C3951A /* DiscoverNib.xib */; };
+		B84DD24B2242079400C3951A /* FriendsCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B84DD24A2242079400C3951A /* FriendsCollectionView.xib */; };
+		B84DD24E22424A9200C3951A /* InsideChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84DD24D22424A9200C3951A /* InsideChatViewController.swift */; };
 		B8AF6696223A52690054E64D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AF6695223A52690054E64D /* AppDelegate.swift */; };
 		B8AF6698223A52690054E64D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AF6697223A52690054E64D /* ViewController.swift */; };
-		B8AF669B223A52690054E64D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8AF6699223A52690054E64D /* Main.storyboard */; };
 		B8AF669D223A526A0054E64D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8AF669C223A526A0054E64D /* Assets.xcassets */; };
 		B8AF66A0223A526A0054E64D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8AF669E223A526A0054E64D /* LaunchScreen.storyboard */; };
 		B8AF66AB223A526A0054E64D /* SnapchatCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AF66AA223A526A0054E64D /* SnapchatCloneTests.swift */; };
 		B8AF66B6223A526A0054E64D /* SnapchatCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AF66B5223A526A0054E64D /* SnapchatCloneUITests.swift */; };
+		B8AF66C8223A54EB0054E64D /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AF66C7223A54EB0054E64D /* CameraViewController.swift */; };
+		B8AF66CB223A56A10054E64D /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AF66CA223A56A10054E64D /* config.swift */; };
+		B8AF66CD223A5A360054E64D /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AF66CC223A5A360054E64D /* DiscoverViewController.swift */; };
+		B8B61ECC2250B6FD00F57D61 /* DiscoverCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B61ECB2250B6FD00F57D61 /* DiscoverCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +46,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B84DD237223D231E00C3951A /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		B84DD239223D232B00C3951A /* ChatNib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatNib.xib; sourceTree = "<group>"; };
+		B84DD23B223D249000C3951A /* ChatCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCollectionViewCell.swift; sourceTree = "<group>"; };
+		B84DD23D223D261B00C3951A /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B84DD2432241158D00C3951A /* FriendsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendsCollectionViewCell.xib; sourceTree = "<group>"; };
+		B84DD2462241163400C3951A /* FriendsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsCollectionViewCell.swift; sourceTree = "<group>"; };
+		B84DD248224205EB00C3951A /* DiscoverNib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiscoverNib.xib; sourceTree = "<group>"; };
+		B84DD24A2242079400C3951A /* FriendsCollectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendsCollectionView.xib; sourceTree = "<group>"; };
+		B84DD24D22424A9200C3951A /* InsideChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsideChatViewController.swift; sourceTree = "<group>"; };
 		B8AF6692223A52690054E64D /* SnapchatClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapchatClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8AF6695223A52690054E64D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8AF6697223A52690054E64D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B8AF669A223A52690054E64D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B8AF669C223A526A0054E64D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8AF669F223A526A0054E64D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8AF66A1223A526A0054E64D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +67,10 @@
 		B8AF66B1223A526A0054E64D /* SnapchatCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapchatCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8AF66B5223A526A0054E64D /* SnapchatCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapchatCloneUITests.swift; sourceTree = "<group>"; };
 		B8AF66B7223A526A0054E64D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8AF66C7223A54EB0054E64D /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		B8AF66CA223A56A10054E64D /* config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
+		B8AF66CC223A5A360054E64D /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		B8B61ECB2250B6FD00F57D61 /* DiscoverCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +98,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B84DD2422241157300C3951A /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				B84DD2432241158D00C3951A /* FriendsCollectionViewCell.xib */,
+				B84DD24A2242079400C3951A /* FriendsCollectionView.xib */,
+			);
+			path = Nibs;
+			sourceTree = "<group>";
+		};
+		B84DD2452241161200C3951A /* FriendsCell */ = {
+			isa = PBXGroup;
+			children = (
+				B84DD2422241157300C3951A /* Nibs */,
+				B84DD2462241163400C3951A /* FriendsCollectionViewCell.swift */,
+			);
+			path = FriendsCell;
+			sourceTree = "<group>";
+		};
+		B84DD24C22424A6300C3951A /* InsideChat */ = {
+			isa = PBXGroup;
+			children = (
+				B84DD24D22424A9200C3951A /* InsideChatViewController.swift */,
+			);
+			path = InsideChat;
+			sourceTree = "<group>";
+		};
 		B8AF6689223A52690054E64D = {
 			isa = PBXGroup;
 			children = (
@@ -97,9 +147,10 @@
 		B8AF6694223A52690054E64D /* SnapchatClone */ = {
 			isa = PBXGroup;
 			children = (
+				B8AF66C9223A56940054E64D /* config */,
+				B8AF66C3223A52750054E64D /* controllers */,
 				B8AF6695223A52690054E64D /* AppDelegate.swift */,
 				B8AF6697223A52690054E64D /* ViewController.swift */,
-				B8AF6699223A52690054E64D /* Main.storyboard */,
 				B8AF669C223A526A0054E64D /* Assets.xcassets */,
 				B8AF669E223A526A0054E64D /* LaunchScreen.storyboard */,
 				B8AF66A1223A526A0054E64D /* Info.plist */,
@@ -123,6 +174,55 @@
 				B8AF66B7223A526A0054E64D /* Info.plist */,
 			);
 			path = SnapchatCloneUITests;
+			sourceTree = "<group>";
+		};
+		B8AF66C3223A52750054E64D /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B8AF66C6223A54C70054E64D /* discoverView */,
+				B8AF66C5223A54BF0054E64D /* chatView */,
+				B8AF66C4223A54AC0054E64D /* camerView */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		B8AF66C4223A54AC0054E64D /* camerView */ = {
+			isa = PBXGroup;
+			children = (
+				B8AF66C7223A54EB0054E64D /* CameraViewController.swift */,
+			);
+			path = camerView;
+			sourceTree = "<group>";
+		};
+		B8AF66C5223A54BF0054E64D /* chatView */ = {
+			isa = PBXGroup;
+			children = (
+				B84DD237223D231E00C3951A /* ChatViewController.swift */,
+				B84DD23B223D249000C3951A /* ChatCollectionViewCell.swift */,
+				B84DD239223D232B00C3951A /* ChatNib.xib */,
+				B84DD24C22424A6300C3951A /* InsideChat */,
+			);
+			path = chatView;
+			sourceTree = "<group>";
+		};
+		B8AF66C6223A54C70054E64D /* discoverView */ = {
+			isa = PBXGroup;
+			children = (
+				B84DD248224205EB00C3951A /* DiscoverNib.xib */,
+				B8B61ECB2250B6FD00F57D61 /* DiscoverCollectionViewCell.swift */,
+				B8AF66CC223A5A360054E64D /* DiscoverViewController.swift */,
+				B84DD2452241161200C3951A /* FriendsCell */,
+			);
+			path = discoverView;
+			sourceTree = "<group>";
+		};
+		B8AF66C9223A56940054E64D /* config */ = {
+			isa = PBXGroup;
+			children = (
+				B8AF66CA223A56A10054E64D /* config.swift */,
+				B84DD23D223D261B00C3951A /* Models.swift */,
+			);
+			path = config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +329,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B84DD24B2242079400C3951A /* FriendsCollectionView.xib in Resources */,
+				B84DD23A223D232B00C3951A /* ChatNib.xib in Resources */,
 				B8AF66A0223A526A0054E64D /* LaunchScreen.storyboard in Resources */,
 				B8AF669D223A526A0054E64D /* Assets.xcassets in Resources */,
-				B8AF669B223A52690054E64D /* Main.storyboard in Resources */,
+				B84DD2442241158D00C3951A /* FriendsCollectionViewCell.xib in Resources */,
+				B84DD249224205EC00C3951A /* DiscoverNib.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +360,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8AF6698223A52690054E64D /* ViewController.swift in Sources */,
+				B8B61ECC2250B6FD00F57D61 /* DiscoverCollectionViewCell.swift in Sources */,
+				B84DD2472241163400C3951A /* FriendsCollectionViewCell.swift in Sources */,
+				B84DD24E22424A9200C3951A /* InsideChatViewController.swift in Sources */,
+				B8AF66CB223A56A10054E64D /* config.swift in Sources */,
+				B84DD23C223D249000C3951A /* ChatCollectionViewCell.swift in Sources */,
+				B84DD23E223D261B00C3951A /* Models.swift in Sources */,
 				B8AF6696223A52690054E64D /* AppDelegate.swift in Sources */,
+				B8AF66C8223A54EB0054E64D /* CameraViewController.swift in Sources */,
+				B84DD238223D231E00C3951A /* ChatViewController.swift in Sources */,
+				B8AF66CD223A5A360054E64D /* DiscoverViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +405,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B8AF6699223A52690054E64D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B8AF669A223A52690054E64D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B8AF669E223A526A0054E64D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,6 +537,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KNU45H2KW;
 				INFOPLIST_FILE = SnapchatClone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +555,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KNU45H2KW;
 				INFOPLIST_FILE = SnapchatClone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -9,5 +9,7 @@
 import UIKit
 
 class DiscoverCollectionViewCell: UICollectionViewCell {
-    
+    @IBOutlet weak var img: UIImageView!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var timeLabel: UILabel!
 }
